@@ -1,0 +1,30 @@
+{
+    "name": "grantholle/powerschool-schools",
+    "description": "School boilerplate for Laravel applications.",
+    "type": "library",
+    "require": {
+        "grantholle/powerschool-api": "^2.1",
+        "illuminate/support": "^6|^7",
+        "illuminate/database": "^6|^7",
+        "illuminate/console": "^6|^7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Grant Holle",
+            "homepage": "https://grantholle.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GrantHolle\\PowerSchool\\Schools\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GrantHolle\\PowerSchool\\Schools\\PowerSchoolSchoolsServiceProvider"
+            ]
+        }
+    }
+}
