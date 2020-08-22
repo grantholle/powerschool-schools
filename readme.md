@@ -47,6 +47,12 @@ php artisan powerschool:schools
 
 to populate the table with the school data for your district.
 
+You can also sync individual schools by passing the `school_number` as a command argument:
+
+```
+php artisan powerschool:schools {school_number}
+```
+
 ## License
 
 [MIT](LICENSE.md)
